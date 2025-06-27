@@ -1,6 +1,6 @@
 # VoteSplat
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [VoteSplat website](https://votesplat.github.io).
 
 If you find VoteSplat useful for your work please cite:
 ```
