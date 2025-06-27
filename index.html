@@ -157,7 +157,16 @@
     </div>
     <div class="content has-text-justified" style="max-width: 80vh; margin: 0 auto;">
         <p>
-         Three main steps in VoteSplat pipeline: <strong>(a)</strong> We first deploy SAM to automatically generate segmentation masks for all instances independently across different views. <strong>(b)</strong> For each segmented mask, we compute the instance center to construct the 2D Vote Map. <strong>(c)</strong> By projecting 3D votes into pixel space through splatting and computing the voting loss together with the previous 2D voting map, each Gaussian primitive forming an instance is ensured to learn an offset vector pointing toward the instance center. For simplicity, we omit the rendering process and density control of other Gaussian parameters.
+         Three main steps in VoteSplat pipeline: 
+        </p>
+        <p>
+         <strong>(a)</strong> We first deploy SAM to automatically generate segmentation masks for all instances independently across different views. 
+        </p>
+        <p>
+         <strong>(b)</strong> For each segmented mask, we compute the instance center to construct the 2D Vote Map. 
+        </p> 
+        <p>
+         <strong>(c)</strong> By projecting 3D votes into pixel space through splatting and computing the voting loss together with the previous 2D voting map, each Gaussian primitive forming an instance is ensured to learn an offset vector pointing toward the instance center. For simplicity, we omit the rendering process and density control of other Gaussian parameters.
         </p>
     </div>
   </div>
