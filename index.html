@@ -155,6 +155,11 @@
         >
       </figure>
     </div>
+    <div class="content has-text-justified" style="max-width: 80vh; margin: 0 auto;">
+        <p>
+         Three main steps in VoteSplat pipeline: (a) We first deploy SAM to automatically generate segmentation masks for all instances independently across different views.(b) For each segmented mask, we compute the instance center to construct the 2D Vote Map. (c) By projecting 3D votes into pixel space through splatting and computing the voting loss together with the previous 2D voting map, each Gaussian primitive forming an instance is ensured to learn an offset vector pointing toward the instance center. For simplicity, we omit the rendering process and density control of other Gaussian parameters.
+        </p>
+    </div>
   </div>
 </section>
 
@@ -199,6 +204,11 @@
           Point Cloud Feature Visualizations
         </figcaption>
       </figure>
+      <div class="content has-text-justified" style="max-width: 80vh; margin: 0 auto;">
+        <p>
+         VoteSplat assigns distinct colors to instance categories for clarity. In OpenGaussian, colors are derived by applying PCA to reduce feature dimensions to three, and then mapping them to RGB. In contrast, LangSplat directly uses its three dimensional features as point cloud colors. The well-segmented instances in VoteSplat demonstrate its superior performance.
+        </p>
+      </div>
     </div>
   </div>
 </section>
