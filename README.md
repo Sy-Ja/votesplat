@@ -4,7 +4,15 @@ This is the repository that contains source code for the [VoteSplat website](htt
 
 If you find VoteSplat useful for your work please cite:
 ```
-
+@misc{jiang2025votesplathoughvotinggaussian,
+      title={VoteSplat: Hough Voting Gaussian Splatting for 3D Scene Understanding}, 
+      author={Minchao Jiang and Shunyu Jia and Jiaming Gu and Xiaoyuan Lu and Guangming Zhu and Anqi Dong and Liang Zhang},
+      year={2025},
+      eprint={2506.22799},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2506.22799}, 
+}
 ```
 
 # Website License
